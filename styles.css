@@ -1,0 +1,170 @@
+.logo{
+  width:50px;
+  cursor: pointer;
+  margin-bottom:10px;
+}
+.navbar{
+  background-color:rgb(161, 223, 249);
+  height:30%;
+}
+.navbar ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li ::after{
+  content: '';
+  height: 3px;
+  width: 0px;
+  background:white;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover ::after{
+  width:100%;
+}
+.navbar-brand{
+  margin-left:10px;
+}
+.sidenav .active{
+  text-align: start;
+  font-size: 30px;
+  margin:0px;
+  background-color:rgb(90, 183, 223) ;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(161, 223, 249);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a, .dropdown-btn1 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a, .dropdown-btn2 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+  color:rgb(161, 223, 249) ;
+}
+.sidenav a:hover {
+  background-color: rgb(90, 183, 223);
+  color: white;
+}
+.dropdown-container {
+  display: none;
+  background-color:rgb(109, 212, 236);
+  padding-left: 8px;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  margin-top: 50px;
+}
+button{
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.card{
+  width: 28%;
+  display: inline-block;
+  margin: 2%;
+}
+.col {
+  float: left;
+  width: 75%;
+  padding: 0 10px;
+  margin-left: 25px;
+}
+.row {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tab,td{
+  border-color: bisque;
+  background-color: antiquewhite;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.top{
+margin-left: 700px;
+display: inline-block;
+margin-top: 10px;
+}
+
+.image img{
+  width: 100%;
+}
+.tablink {
+  background-color :wheat;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
